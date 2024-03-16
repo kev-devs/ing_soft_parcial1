@@ -23,7 +23,7 @@ jobs:
     - run: npm ci
     - run: npm run test:ci
 
-  Explore-GitHub-Actions:
+  info:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hola! este workflow se ejecuta al realizar un commit-push a la branch ${{ github.ref }}"
